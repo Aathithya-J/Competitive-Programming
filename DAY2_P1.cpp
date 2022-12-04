@@ -1,11 +1,3 @@
-// Online C++ compiler to run C++ program online
-// A,X-Rock [1]
-// B,Y-Paper [2]
-// C,Z-Scissors [3]
-// lose [0]
-// draw [3]
-//  win [6]
-
 #include <iostream>
 using namespace std;
 char Comp, Player;
