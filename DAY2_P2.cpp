@@ -34,7 +34,7 @@ int main() {
       add = 2;
       sum += add;
     } else if (line == "C Y") {
-      add = 2;
+      add = 6;
       sum += add;
     } else if (line == "C Z") {
       add = 7;
