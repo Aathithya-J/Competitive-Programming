@@ -2,12 +2,10 @@
 #include <cmath>
 using namespace std;
 int x,m,i,count;
-int main(){
-	cout<<"";
-	cin>>x;
+int prime(int x){
 	m=sqrt(x);
 	if (x==1 or x==0){
-		cout<<false;
+		return false;
 	}
 	for (i=2; i<=m; i++) {
 		if (x%i==0){
@@ -16,10 +14,12 @@ int main(){
 	}
 	
 	if (count==0){
-		cout<<true;
+		return true;
 	}
 	else{
-		cout<<"false;
+		return false;
 	}
-
+}
+int main(){
+    cout<<prime(~)<<endl;
 }
