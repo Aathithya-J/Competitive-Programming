@@ -9,13 +9,13 @@ int main() {
   cout << "";
   while (getline(data, line)) {
     if (line == "A X") {
-      add = 4;
+      add = 3;
       sum += add;
     } else if (line == "A Y") {
-      add = 8;
+      add = 4;
       sum += add;
     } else if (line == "A Z") {
-      add = 3;
+      add = 8;
       sum += add;
     }
 
@@ -31,13 +31,13 @@ int main() {
     }
 
     if (line == "C X") {
-      add = 7;
-      sum += add;
-    } else if (line == "C Y") {
       add = 2;
       sum += add;
-    } else if (line == "C Z") {
+    } else if (line == "C Y") {
       add = 6;
+      sum += add;
+    } else if (line == "C Z") {
+      add = 7;
       sum += add;
     }
   }
