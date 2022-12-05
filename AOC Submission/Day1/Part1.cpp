@@ -10,8 +10,8 @@ int main() {
     if (mytext==""){
       if (sum>bigt){
         bigt=sum;
-        sum=0;
       }
+      sum=0;
     }else{
       add=stoi(mytext);
       sum+=add
