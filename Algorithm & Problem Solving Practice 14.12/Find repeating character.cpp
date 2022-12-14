@@ -24,4 +24,4 @@ int main() {
     cout << str[pos];
   return 0;
 }
-//Thanks geeksforgeeks
+//This code was referenced from other sources
