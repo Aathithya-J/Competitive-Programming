@@ -76,3 +76,4 @@ int main() {
 
 
 //This file is not accurate and works 50, 50, Still in progress
+//Ans:1832
