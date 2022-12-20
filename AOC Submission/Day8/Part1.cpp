@@ -5,11 +5,11 @@ string line;
 ifstream data("input.txt");
 int row, col, count, visible, i, j, x;
 int main() {
-  int line1[5][5];
-  row = 5, col = 5;
-  for (int i = 0; i < 5; i++) {
+  int line1[99][99];
+  row = 99, col = 99;
+  for (int i = 0; i < 99; i++) {
     getline(data, line);
-    for (int j = 0; j < 5; j++) {
+    for (int j = 0; j < 99; j++) {
       line1[i][j] = line[j];
       line1[i][j] = line1[i][j] - 48;
     }
@@ -71,7 +71,7 @@ int main() {
       }
     }
   }
-  cout << "Count:" << count + 16 << endl << endl;
+  cout << "Count:" << count + 99*4-4 << endl << endl;
 }
 
 
