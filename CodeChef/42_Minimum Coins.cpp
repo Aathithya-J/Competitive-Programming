@@ -7,12 +7,10 @@ int main() {
 	for(int i=0; i<line; i++)
 	{
 	    cin>>a;
-	    if(a<10)
-	    {
+	    if(a<10){
 	        cout<<a;
 	    }
-	    else
-	    {
+	    else{
 	        cout<<a%10;
 	    }
 	    cout<<endl;
