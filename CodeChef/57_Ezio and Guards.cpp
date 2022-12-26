@@ -6,7 +6,7 @@ int main() {
     cin>>line;
     for (int i=0; i<line;i++){
 	    cin>>X>>Y;
-	    if (Y>X){
+	    if (Y<=X){
 	    cout<<"YES"<<endl;
 	    }else{
 	    cout<<"NO"<<endl;
